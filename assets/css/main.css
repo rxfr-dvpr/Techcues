@@ -824,9 +824,12 @@ a {
 }
 
 .web-link {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
     color: var(--third-color);
     font-size: 18px;
-    padding: 10px 13px;
     background: #ABABFA;
     border-radius: 50%;
     -webkit-border-radius: 50%;
